@@ -1,0 +1,118 @@
+#container {
+  width: 450px;
+  height: 500px;
+  padding: 20px;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#perfil {
+  height: 60px;
+  align-items: center;
+  display: flex;
+}
+
+#borda_img {
+  background: linear-gradient(45deg, red 0%, orange 16.66%, yellow 33.33%, green 50%, blue 66.66%, indigo 83.33%, violet 100%) border-box !important;
+  width: 61px;
+  height: 61px;
+  border-radius: 100%;
+
+}
+#img_perfil {
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  padding: 3px;
+  border-radius: 100%;
+  background: white;
+  object-fit: cover;
+  transition: 1s;
+}
+
+.negrito {
+  font-weight: bold;
+}
+
+#dias {
+  color: grey;
+}
+
+#menu {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+  border: blue rolid 2px;
+}
+
+/* Foto da postagem */
+main {
+  margin-top: 10px;
+  width: 100%;
+  position: relative;
+}
+
+#post {
+  width: 450px;
+  height: 450px;
+  border-radius: 2px;
+  position: relative;
+  object-fit: cover;
+}
+
+#proximo {
+  position: absolute;
+  padding: 7px 0 0 8px;
+  height: 30px;
+  right: 12px;
+  top: 45%;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.582);
+}
+
+#proximo i {
+opacity: 40%;
+}
+
+/* like, comment, save */
+#main_footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+i {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+/* curtidas e comentarios */
+
+
+#container_comentario {
+  display: flex;
+  gap: 5px;
+}
+
+#input_comentario {
+  display: none;
+}
+
+#input {
+
+border: 1px rgba(195, 190, 190, 0.818) solid;
+border-right: none;
+border-top: none;
+}
+
+#enviar {
+  background-color: bisque;
+  border: 1px rgba(195, 186, 186, 0.466) solid;
+color: rgb(110, 108, 108);
+margin-left: 20px;
+border-radius: 3px;
+}
